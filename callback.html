@@ -1,0 +1,9 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login concluído</title><link rel="stylesheet" href="estilo.css"></head><body><main>
+<h1>Autorização recebida</h1>
+<p>Copie o endereço inteiro desta página (a barra de endereço, com <code>?code=</code>) e rode no PC:</p>
+<p><code>node automacao/autorizar-tiktok.mjs "ENDEREÇO COPIADO"</code></p>
+<p class="mut" id="tem"></p>
+<script>document.getElementById("tem").textContent = new URLSearchParams(location.search).has("code") ? "O código veio no endereço. Pode copiar." : "Esta página não recebeu código.";</script>
+<nav><a href="index.html">Início</a></nav>
+</main></body></html>

@@ -1,0 +1,6 @@
+:root{--bg:#14112a;--fg:#f4f1ff;--mut:#b9b2e0;--ac:#ffcf3f}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px}
+h1{color:var(--ac);font-size:2rem;margin:0 0 .5rem}h2{margin-top:2rem;font-size:1.2rem}
+a{color:var(--ac)}p,li{color:var(--fg)}small,.mut{color:var(--mut)}
+nav{margin-top:3rem;border-top:1px solid #2c2650;padding-top:1rem}nav a{margin-right:1rem}
